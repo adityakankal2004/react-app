@@ -1,7 +1,12 @@
 import "./App.css";
 
-function App() {
-  return <button>Hello React</button>;
+
+function Title(){
+  return <h1>This is react app</h1>;
 }
 
-export default App
+function App() {
+  return <Title/>;
+}
+
+export default App;
