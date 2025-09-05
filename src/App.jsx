@@ -1,12 +1,13 @@
 import "./App.css";
+// import Title from "./Title.jsx";
+import ProductTab from "./ProductTab.jsx";
 
-
-function Title(){
-  return <h1>This is react app</h1>;
-}
 
 function App() {
-  return <Title/>;
+  return <div>
+    <ProductTab/>
+    
+    </div>;
 }
 
 export default App;
