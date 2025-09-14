@@ -8,9 +8,9 @@ function Product({title,price,features=[],features2}) {
             <h3>Price-{price/2}</h3>
             <p>{features}</p>
             <p>
-                {features.map((feature) => {
+                {features.map((feature) => (
                     <li>{feature}</li>
-                })}</p>
+                ))}</p>
         </div>
     );
 }
