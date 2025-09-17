@@ -4,6 +4,8 @@ function ProductTab () {
     let styles = {
         display:"flex",
         flexWrap:"wrap",
+        justifyContent:"center",
+        alignItems:"center"
     };
     return (
         <div style={styles}>
